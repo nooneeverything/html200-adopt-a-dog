@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 10px;
+}
+
+.headnav {
+  /* border: 2px solid black; */
+  background-color: #E0E0E0;
+  color: navy;
+  padding: 20px;
+  padding-left: 173px;
+  position: relative;
+  bottom: 688px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+img[src="/adopt-a-dog/images/cart-icon.svg"] {
+  position: relative;
+  left: 1180px;
+  bottom: 895px;
+  width: 40px;
+
+
+}
+
+.price {
+  border: 1px solid black;
+  width: 60px;
+  color: white;
+  position: relative;
+  bottom: 947px;
+  left: 1233px;
+}
+
+img[src="/adopt-a-dog/images/adoptadog-logo.svg"]{
+  position: relative;
+  bottom: 525px;
+  left: 79px;
+  width: 375px;
+}
+
+h1 {
+  color: green;
+  position: relative;
+  bottom: 725px;
+  left: 79px;
+  width: 500px;
+
+}
+
+a[href="/adopt-a-dog/Checkout.html"] {
+  border: 1px solid black;
+  padding: 6px;
+  width: 550px;
+  position: relative;
+  bottom: 927px;
+  left: 1165px;
+  background-color: green;
+  color: white;
+  padding-left: 35px;
+  padding-right: 30px;
+}
+
+label[for="name"] {
+
+}
+input[id="name"]{
+  height: 50px;
+  width: 650px;
+}
+
+label[for="email"]{
+
+}
+
+input[type="email"] {
+  height: 50px;
+  width: 650px;
+}
+
+label[for="address"] {
+
+}
+
+input[id="address"]{
+  height: 50px;
+  width: 650px;
+}
+
+label[for="city"] {
+
+}
+
+input[id="city"] {
+  height: 50px;
+  width: 383px;
+}
+
+label[for="state"]{
+
+}
+
+select[id="state"]{
+  height: 50px;
+  width: 100px;
+}
+
+label[for="zip"] {
+
+}
+
+input[id="zip"] {
+  height: 50px;
+  width: 130px;
+}
+
+
+input[type="number"]{
+
+}
+
+p {
+
+}
+
+input[id="yes"]{
+
+}
+
+label[for="yes"] {
+
+}
+
+input[id="no"]{
+
+}
+
+label[for="no"] {
+
+}
+
+label[for="pickup"] {
+
+}
+
+select[id="pickup"] {
+  height: 50px;
+  width: 130px;
+}
+
+.dogs {
+
+
+}
+
+
+
+.dog1 p{
+  font-size: 25px;
+  color: #003568;
+  font-weight: bold;
+}
+.dog2 {
+
+  position: relative;
+  left: 430px;
+  width: 70%;
+  bottom: 240px;
+}
+
+h4 {
+
+}
+
+
+
+.form {
+
+  font-size: 24px;
+  width: 60%;
+  position: relative;
+  bottom: 650px;
+  left: 180px;
+
+}
+
+.name {
+  margin-bottom: 50px;
+}
+
+.email {
+  margin-bottom: 50px;
+}
+
+.address {
+ margin-bottom: 50px;
+}
+
+.city {
+
+}
+
+.state {
+  position: relative;
+  left: 400px;
+  bottom: 84px;
+}
+
+.zipcode {
+  position: relative;
+  left: 520px;
+  bottom: 169px;
+}
+
+.question1 {
+
+  position: relative;
+  bottom: 90px;
+
+}
+
+.question1 p {
+  color: #003568;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.pickup {}
+
+label {
+  color: #003568;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  color: #003568;
+}
+
+.no {
+
+  width: 100px;
+  position: relative;
+  left: 130px;
+  bottom: 66px;
+}
+
+.yes {
+
+  width: 100px;
+
+}
+
+.pickup {
+
+  position: relative;
+  bottom: 100px;
+
+}
+input[list="location"] {
+  height: 50px;
+  width: 383px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #003568;
+    font-weight: bold;
+}
+/* p {
+    font-size: 25px;
+    color: #003568;
+    font-weight: bold;
+} */
+
+.dognames {
+  font-size: 30px;
+  color: #003568;
+  font-weight: bold;
+
+}
+
+.dogtext1 {
+
+  width: 30%;
+  position: relative;
+  left: 165px;
+  bottom: 150px;
+}
+
+.dogtext2 {
+
+  width: 40%;
+  position: relative;
+  left: 165px;
+  bottom: 150px;
+}
+
+h4 {
+  font-size: 30px;
+  color: #003568;
+  font-weight: bold;
+}
+
+.submit-button {
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  width: 255px;
+  text-align: center;
+  padding: 15px;
+}
+
+footer {
+  background-color: #003568;
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.foottext {
+  color: white;
+  position: relative;
+  bottom: 150px;
+  padding: 15px;
+}
+.foottext a {
+  color: white;
+}
+
+img[src="/adopt-a-dog/images/header-image.jpg"]{
+  width: 100%;
+  height: 400px;
+}

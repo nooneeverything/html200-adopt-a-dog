@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+background-color: pink;
+  font-family: sans-serif;
+
+  
+}
+.headercontainer {
+  width: 100%;
+}
+.seemore{
+  border: 1px solid grey;
+  width: 255px;
+  text-align: center;
+  padding: 1rem;
+  color: #00008B;
+  background-color: lightgrey;
+  position: relative;
+  bottom: 3600px;
+  left: 590px;
+
+}
+footer {
+  border: 2px solid black;
+  background-color: #0F1D64;
+  color: white;
+  text-align: center;
+}
+.navfooter {
+  color: white;
+}
+.footernotes {
+  position: relative;
+  bottom: 150px;
+
+
+}
+.footnav{
+  color: white;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/adoptadog-logo.svg"]{
+  text-align: center;
+}
+.headerimg {
+  position: relative;
+  left: -48px;
+  top: -16px;
+
+
+
+}
+
+
+#logoimg {
+  position: relative;
+  bottom: 450px;
+  left: 0px;
+  width: 35%;
+
+}
+
+h1 {
+  position: relative;
+  bottom: 600px;
+  left: 50px;
+  color: green;
+}
+
+.cartimg {
+ position: relative;
+ bottom: 760px;
+ left: 1125px;
+}
+
+a[href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/Checkout.html"] {
+  position: relative;
+  bottom: 760px;
+  left: 1165px;
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  width: 200px;
+
+}
+
+.flex-container{
+  background-color: #D8D8D8;
+  /* opacity: 0.3;
+  border: solid black 2px; */
+  padding: 2rem;
+  position: relative;
+  bottom: 593px;
+  right: 8px;
+  width: 100%;
+  font-size: 24px;
+  color: black;
+
+
+
+}
+
+.flex-item {
+  padding-left: 150px;
+}
+
+/* .flex-container {
+  display: flex;
+} */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  /* padding-left: 125px; */
+}
+
+/* a[href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/index.html"] {
+  color: black;
+  font-weight: bold;
+} */
+
+.dogimg {
+  position: relative;
+  bottom: 500px;
+  left: 135px;
+}
+
+.intro {
+  position: relative;
+  bottom: 900px;
+  left: 635px;
+}
+.intro p{
+  font-size: 18px;
+  font-weight: lighter;
+  display: block;
+
+}
+
+.intro h2{
+  color: #00008B;
+}
+
+.adopt-button {
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  color: white;
+  background-color: limegreen;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dog1 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 750px;
+  left: 175px;
+}
+
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/murphy-card.jpg"]{
+  height: 210px;
+  /* width: 250px; */
+  max-width: 100%;
+  /* position: relative;
+  bottom: 775px;
+  left: 135px; */
+}
+
+.dog2 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 1242px;
+  left: 445px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/poppy-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+.dog3 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 1735px;
+  left: 715px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/jack-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+
+.dog4 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 2216px;
+  left: 1000px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/duffy-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+.dog5 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 2159px;
+  left: 175px;
+
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/lucas-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+.dog6 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 2652px;
+  left: 445px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/jake-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+
+.dog7 {
+  border: 1px solid grey;
+  width: 255px;
+  position: relative;
+  bottom: 3145px;
+  left: 710px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/angus-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+.dog8 {
+  border: 1px solid grey;
+  width: 275px;
+  position: relative;
+  bottom: 3640px;
+  left: 990px;
+}
+
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/violet-card.jpg"]{
+  height: 210px;
+  max-width: 100%;
+}
+p b i {
+  color: white;
+  position: relative;
+  bottom: 800px;
+  left: 1230px;
+}
+
+.main-container {
+
+}

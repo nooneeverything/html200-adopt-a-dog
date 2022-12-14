@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 10px;
+}
+
+.headnav {
+  /* border: 2px solid black; */
+  background-color: #E0E0E0;
+  color: navy;
+  padding: 20px;
+  padding-left: 173px;
+  position: relative;
+  bottom: 688px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+img[src="/adopt-a-dog/images/cart-icon.svg"] {
+  position: relative;
+  left: 1180px;
+  bottom: 895px;
+  width: 40px;
+
+
+}
+
+.price {
+  border: 1px solid black;
+  width: 60px;
+  color: white;
+  position: relative;
+  bottom: 947px;
+  left: 1233px;
+}
+
+a[href="/adopt-a-dog/Checkout.html"] {
+  border: 1px solid black;
+  padding: 6px;
+  width: 550px;
+  position: relative;
+  bottom: 927px;
+  left: 1165px;
+  background-color: green;
+  color: white;
+  padding-left: 35px;
+  padding-right: 30px;
+}
+
+.title {
+  font-size: 30px;
+  color: #003568;
+  position: relative;
+  bottom: 625px;
+  left: 175px;
+
+}
+img[src="/adopt-a-dog/images/adoptadog-logo.svg"]{
+  position: relative;
+  bottom: 525px;
+  left: 79px;
+  width: 375px;
+}
+
+h1 {
+  color: green;
+  position: relative;
+  bottom: 725px;
+  left: 79px;
+  width: 500px;
+
+}
+
+h2 {
+  color: #003568;
+  font-size: 30px;
+  position: relative;
+  bottom: 625px;
+  left: 175px;
+}
+
+h3 {
+  color: #003568;
+  font-size: 25px;
+}
+.blog-container {
+
+  position: relative;
+  bottom: 550px;
+  left: 175px;
+}
+
+.blog1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+
+}
+
+img[src="/adopt-a-dog/images/blog-1.jpg"] {
+
+}
+
+.blog1text {
+
+  width: 500px;
+  margin-left: 50px;
+
+}
+
+.blog2 {
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.blog2text {
+  width: 500px;
+  margin-left: 50px;
+
+}
+
+.blog3 {
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.blog3text {
+
+  width: 500px;
+  margin-left: 50px;
+
+}
+
+/* img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo-footer.svg"] {
+  position: relative;
+  top: 300px;
+} */
+
+footer {
+  background-color: #003568;
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.foottext {
+  color: white;
+  position: relative;
+  bottom: 150px;
+  padding: 15px;
+}
+.foottext a {
+  color: white;
+}
+
+img[src="/adopt-a-dog/images/header-image.jpg"]{
+  width: 100%;
+  height: 400px;  
+}

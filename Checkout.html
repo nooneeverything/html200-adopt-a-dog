@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=500, initial-scale=1">
+  <link rel="stylesheet" href="/adopt-a-dog/styles/styles4.css">
   <title> Adopt a Dog </title>
   <!-- <style>
     body {
@@ -12,37 +13,55 @@
 </head>
 <body>
   <header>
+
     <figure>
-      <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-image.jpg" alt="background image of a dog">
+      <img class="headerlogo" src="/adopt-a-dog/images/header-image.jpg" alt="background image of a dog">
     </figure>
     <figure>
-      <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/adoptadog-logo.svg" alt="company logo of dog" width="500" height="500">
+      <img src="/adopt-a-dog/images/adoptadog-logo.svg" alt="company logo of dog" width="500" height="500">
     </figure>
-    <h1> Seattles premier dog adoption agency  </h1>
+    <h1><i> Seattles premier dog adoption agency</i> </h1>
     <figure>
-      <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/cart-icon.svg" alt="logo of shopping cart" width="100" height="100">
+      <img src="/adopt-a-dog/images/cart-icon.svg" alt="logo of shopping cart" width="100" height="100">
     </figure>
-    <p><b> $123.45 </b></p>
-    <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/Checkout.html" target="_blank"> Checkout </a>
+    <p class="price"><b> $123.45 </b></p>
+    <a href="/adopt-a-dog/Checkout.html" target="_blank"> Checkout </a>
+
     <nav>
-      <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/index.html">Home</a>
-      <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/Dogs.html">Dogs</a>
-      <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/Blog.html">Blog</a>
+      <div class="headnav">
+      <a href="/adopt-a-dog/index.html">Home &nbsp; &nbsp; / &nbsp; </a>
+      <a href="/adopt-a-dog/Dogs.html">Dogs &nbsp; &nbsp; / &nbsp;</a>
+      <a href="/adopt-a-dog/Blog.html">Blog &nbsp; &nbsp;/ &nbsp;</a>
+      </div>
     </nav>
 
   </header>
 
   <main>
+    <div class="form">
     <h2> Checkout </h2>
-    <form>
-      <label for="name"> Name</label><br>
-      <input type="text" id="name" name="name"><br>
-      <label for="email"> Email Address </label><br>
-      <input type="email" id="email" name="email"><br>
-      <label for="address"> Street Address </label><br>
-      <input type="text" id="address" name="street-address"><br>
-      <label for="city"> City </label><br>
-      <input type="text" id="city" name="city-name"><br>
+    <br>
+    <br>
+    <br>
+
+
+      <div class="name">
+        <label for="name"> Name</label><br>
+        <input type="text" id="name" name="name"><br>
+      </div>
+      <div class="email">
+        <label for="email"> Email Address </label><br>
+        <input type="email" id="email" name="email"><br>
+      </div>
+      <div class="address">
+        <label for="address"> Street Address </label><br>
+        <input type="text" id="address" name="street-address"><br>
+      </div>
+      <div class="city">
+        <label for="city"> City </label><br>
+        <input type="text" id="city" name="city-name"><br>
+      </div>
+      <div class="state">
       <label for="state"> State </label><br>
       <select id="state" name="state">
 	      <option value="AL">AL</option>
@@ -97,55 +116,101 @@
 	      <option value="WI">WI</option>
 	      <option value="WY">WY</option>
       </select><br>
-      <label for="zip"> Zip Code </label><br>
-      <input type="number" id="zip" name="zip-code"><br>
-      <p> First time pet adopter? </p>
-      <input type="radio" id="yes" name="answer" value="Yes">
-      <label for="yes"> Yes </label>
+      </div>
+      <div class="zipcode">
+        <label for="zip"> Zip Code </label><br>
+        <input type="number" id="zip" name="zip-code"><br>
+      </div>
+      <div class="question1">
+        <p> First time pet adopter? </p>
+        <div class="yes">
+          <input type="radio" id="yes" name="answer" value="Yes">
+          <label for="yes"> Yes </label>
+        </div>
       <br>
-      <input type="radio" id="no" name="answer" value="No">
-      <label for="no"> No </label><br>
-      <label for="pickup"> Pickup Location </label><br>
-      <input type="text" id="pickup" name="pickup-location"><br>
+        <div class="no">
+          <input type="radio" id="no" name="answer" value="No">
+          <label for="no"> No </label><br>
+        </div>
+      </div>
+      <div class="pickup">
+        <label> Pickup Location </label><br>
+        <input list="location" name="pickup-location">
+          <datalist id="location">
+          <option value="homeoffice"> Home Office </option>
+          <option value="location1"> Location1</option>
+          <option value="location2"> Location2</option>
+          <option value="location1"> Location3</option>
+          </datalist>
+
+      </div>
 
 
 
-          <p> Lucas </p>
-          <figure>
-            <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/lucas-checkout.jpg" alt="picture of a dog named Lucas" >
-          </figure>
-          <p><b>Cost to Adopt:</b> $123.45</p>
+      <div class="dogs">
+          <div class="dog1">
+            <h3> Dogs Adopted </h3>
+            <figure>
+              <img src="/adopt-a-dog/images/lucas-checkout.jpg" alt="picture of a dog named Lucas" >
+            </figure>
+            <div class="dogtext1">
+              <p class="dognames"> Lucas </p>
+              <p><b>Cost to Adopt:</b> $123.45</p>
+            </div>
+          </div>
 
 
+         <div class="dog2">
+            <figure>
+              <img src="/adopt-a-dog/images/duffy-checkout.jpg" alt="picture of a dog named Duffy">
+            </figure>
+            <div class="dogtext2">
+              <p class="dognames"> Duffy </p>
+              <p><b>Cost to Adopt:</b> $123.45</p>
+            </div>
+         </div>
+         </div>
 
-          <p> Duffy </p>
-          <figure>
-            <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/duffy-checkout.jpg" alt="picture of a dog named Duffy">
-          </figure>
-          <p><b>Cost to Adopt:</b> $123.45</p>
+
 
 
 
 
 
       <h4> Total Adoption Cost </h4>
+      <br>
       <p> $123.45 </p>
+      <br>
+      <div class="submit-button">
+        <p> Submit </p>
+      </div>
+      </div>
 
-      <p class="submit-button"> Submit </p>
 
 
-</form>
+
+
 <footer>
-  <figure>
-    <img src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/adoptadog-logo.svg" alt="company logo of dog" width="500" height="500">
-  </figure>
-  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non sollicitudin tortor. Nullam arcu metus, accumsan. </p>
-  <nav>
-    <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/index.html">Home</a>
-    <a href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/Dogs.html">Dogs</a>
-    <a href="/Contact.html">Contact</a>
-  </nav>
-  <p> 2018 Adoptadog, LLC | Seattle, WA </p>
+    <div class='footimg'>
+      <figure>
+        <img class="footerlogo" src="/adopt-a-dog/images/adoptadog-logo-footer.svg" alt="company logo of dog" width="400" height="400">
+      </figure>
+    </div>
+    <br>
+    <div class="foottext">
+      <p> Aborpos nisto inci tet aut que volupti beruptiberro to ex </p>
+      <br>
+      <p> esseque invenienihil imaximu scideru ptistiusam consequunt </p>
+      <br>
+
+      <nav>
+        <a href="/adopt-a-dog/index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;/ &nbsp;&nbsp;</a>
+        <a href="/adopt-a-dog/Dogs.html">&nbsp;&nbsp;Dogs &nbsp;&nbsp;/ &nbsp;&nbsp;</a>
+        <a href="/Contact.html">&nbsp;&nbsp;Contact;&nbsp;&nbsp;/</a>
+      </nav>  
+      <br>
+      <p> 2018 Adoptadog, LLC &nbsp; | &nbsp; Seattle, WA  </p>
+    </div>
 </footer>
 </main>
 
