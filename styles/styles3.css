@@ -15,39 +15,39 @@ header {
   /* border: 2px solid black; */
   background-color: #E0E0E0;
   color: navy;
-  padding: 20px;
+  padding: 40px;
   padding-left: 173px;
   position: relative;
   bottom: 688px;
   text-align: left;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2rem; /* 25px */
 }
 
 a:link {
   text-decoration: none;
 }
-img[src="/adopt-a-dog/images/cart-icon.svg"] {
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
-  width: 40px;
+  width: 2.75%; /* 40px */
 
 
 }
 
 .price {
   border: 1px solid black;
-  width: 60px;
+  width: 2.75%; /* 60px */
   color: white;
   position: relative;
   bottom: 947px;
   left: 1233px;
 }
 
-a[href="/adopt-a-dog/Checkout.html"] {
+a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   border: 1px solid black;
-  padding: 6px;
+  padding: 15px;
   width: 550px;
   position: relative;
   bottom: 927px;
@@ -56,21 +56,22 @@ a[href="/adopt-a-dog/Checkout.html"] {
   color: white;
   padding-left: 35px;
   padding-right: 30px;
+  font-size: 1.2rem;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   color: #003568;
   position: relative;
   bottom: 625px;
   left: 175px;
 
 }
-img[src="/adopt-a-dog/images/adoptadog-logo.svg"]{
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"]{
   position: relative;
   bottom: 525px;
   left: 79px;
-  width: 375px;
+  width: 26%;
 }
 
 h1 {
@@ -78,13 +79,13 @@ h1 {
   position: relative;
   bottom: 725px;
   left: 79px;
-  width: 500px;
+  width: 35%; /*500 px*/
 
 }
 
 h2 {
   color: #003568;
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   position: relative;
   bottom: 625px;
   left: 175px;
@@ -92,7 +93,7 @@ h2 {
 
 h3 {
   color: #003568;
-  font-size: 25px;
+  font-size: 1.563rem; /* 25px */
 }
 .blog-container {
 
@@ -108,13 +109,13 @@ h3 {
 
 }
 
-img[src="/adopt-a-dog/images/blog-1.jpg"] {
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/blog-1.jpg"] {
 
 }
 
 .blog1text {
 
-  width: 500px;
+  width: 37%; /* 500px */
   margin-left: 50px;
 
 }
@@ -127,7 +128,7 @@ img[src="/adopt-a-dog/images/blog-1.jpg"] {
 }
 
 .blog2text {
-  width: 500px;
+  width: 37%;
   margin-left: 50px;
 
 }
@@ -141,14 +142,14 @@ img[src="/adopt-a-dog/images/blog-1.jpg"] {
 
 .blog3text {
 
-  width: 500px;
+  width: 37%;
   margin-left: 50px;
 
 }
 
 /* img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo-footer.svg"] {
   position: relative;
-  top: 300px;
+  top: 300px;  
 } */
 
 footer {
@@ -169,7 +170,7 @@ footer {
   color: white;
 }
 
-img[src="/adopt-a-dog/images/header-image.jpg"]{
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-image.jpg"]{
   width: 100%;
-  height: 400px;  
+  height: 400px;
 }

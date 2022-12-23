@@ -15,41 +15,41 @@ header {
   /* border: 2px solid black; */
   background-color: #E0E0E0;
   color: navy;
-  padding: 20px;
+  padding: 40px;
   padding-left: 173px;
   position: relative;
   bottom: 688px;
   text-align: left;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2rem; /* 25px */
 }
 
 a:link {
   text-decoration: none;
 }
-img[src="/adopt-a-dog/images/cart-icon.svg"] {
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
-  width: 40px;
+  width: 2.75%; /* 40px */
 
 
 }
 
 .price {
   border: 1px solid black;
-  width: 60px;
+  width: 2.75%; /* 60px */
   color: white;
   position: relative;
   bottom: 947px;
   left: 1233px;
 }
 
-img[src="/adopt-a-dog/images/adoptadog-logo.svg"]{
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"]{
   position: relative;
   bottom: 525px;
   left: 79px;
-  width: 375px;
+  width: 26%;
 }
 
 h1 {
@@ -57,13 +57,13 @@ h1 {
   position: relative;
   bottom: 725px;
   left: 79px;
-  width: 500px;
+  width: 35%; /* 500px */
 
 }
 
-a[href="/adopt-a-dog/Checkout.html"] {
+a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   border: 1px solid black;
-  padding: 6px;
+  padding: 15px;
   width: 550px;
   position: relative;
   bottom: 927px;
@@ -72,6 +72,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   color: white;
   padding-left: 35px;
   padding-right: 30px;
+  font-size: 1.2rem;
 }
 
 label[for="name"] {
@@ -79,7 +80,7 @@ label[for="name"] {
 }
 input[id="name"]{
   height: 50px;
-  width: 650px;
+  width: 76%; /* 650px */
 }
 
 label[for="email"]{
@@ -88,7 +89,7 @@ label[for="email"]{
 
 input[type="email"] {
   height: 50px;
-  width: 650px;
+  width: 76%; /* 650px */
 }
 
 label[for="address"] {
@@ -97,7 +98,7 @@ label[for="address"] {
 
 input[id="address"]{
   height: 50px;
-  width: 650px;
+  width: 76%; /* 650px */
 }
 
 label[for="city"] {
@@ -106,7 +107,7 @@ label[for="city"] {
 
 input[id="city"] {
   height: 50px;
-  width: 383px;
+  width: 43%; /* 383px */
 }
 
 label[for="state"]{
@@ -115,7 +116,7 @@ label[for="state"]{
 
 select[id="state"]{
   height: 50px;
-  width: 100px;
+  width: 12%; /* 100px */
 }
 
 label[for="zip"] {
@@ -124,7 +125,7 @@ label[for="zip"] {
 
 input[id="zip"] {
   height: 50px;
-  width: 130px;
+  width: 15%; /*130px */
 }
 
 
@@ -156,7 +157,7 @@ label[for="pickup"] {
 
 }
 
-select[id="pickup"] {
+select[id="pickup"]{
   height: 50px;
   width: 130px;
 }
@@ -165,7 +166,6 @@ select[id="pickup"] {
 
 
 }
-
 
 
 .dog1 p{
@@ -189,7 +189,7 @@ h4 {
 
 .form {
 
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   width: 60%;
   position: relative;
   bottom: 650px;
@@ -236,7 +236,7 @@ h4 {
   color: #003568;
   margin-bottom: 30px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
 }
 
 .pickup {}
@@ -244,7 +244,7 @@ h4 {
 label {
   color: #003568;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
 }
 
 h2 {
@@ -273,7 +273,7 @@ h2 {
 }
 input[list="location"] {
   height: 50px;
-  width: 383px;
+  width: 45%; /* 383px */
 }
 
 h3 {
@@ -287,8 +287,8 @@ h3 {
     font-weight: bold;
 } */
 
-.dognames {
-  font-size: 30px;
+.dogname {
+  font-size: 1.875rem; /* 30px */
   color: #003568;
   font-weight: bold;
 
@@ -311,7 +311,7 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   color: #003568;
   font-weight: bold;
 }
@@ -320,11 +320,12 @@ h4 {
   border: 2px solid black;
   background-color: green;
   color: white;
-  width: 255px;
+  width: 30%; /* 255px */
   text-align: center;
-  padding: 15px;
+  padding: 40px;
+  font-size: 2.5rem;
 }
-
+  
 footer {
   background-color: #003568;
   margin-top: 65px;
@@ -343,7 +344,7 @@ footer {
   color: white;
 }
 
-img[src="/adopt-a-dog/images/header-image.jpg"]{
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-image.jpg"]{
   width: 100%;
   height: 400px;
 }

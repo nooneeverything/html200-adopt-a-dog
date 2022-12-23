@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-img[src="/adopt-a-dog/images/header-image.jpg"]{
+img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-image.jpg"]{
   width: 100%;
   height: 400px;
 }
@@ -18,13 +18,13 @@ header {
   /* border: 2px solid black; */
   background-color: #E0E0E0;
   color: navy;
-  padding: 20px;
+  padding: 40px;
   padding-left: 173px;
   position: relative;
   bottom: 688px;
   text-align: left;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2rem; /* 25px */
 }
 
 a:link {
@@ -32,11 +32,11 @@ a:link {
 }
 
 
-img[src="/adopt-a-dog/images/adoptadog-logo.svg"]{
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"]{
   position: relative;
   bottom: 525px;
   left: 79px;
-  width: 375px;
+  width: 26%;
 }
 
 h1 {
@@ -44,31 +44,31 @@ h1 {
   position: relative;
   bottom: 725px;
   left: 79px;
-  width: 500px;
+  width: 35%; /* 500px */
 
 }
 
-img[src="/adopt-a-dog/images/cart-icon.svg"] {
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
-  width: 40px;
+  width: 2.75%; /* 40px */
 
 
 }
 
 .price {
   border: 1px solid black;
-  width: 60px;
+  width: 2.75%; /* 60px */
   color: white;
   position: relative;
   bottom: 947px;
   left: 1233px;
 }
 
-a[href="/adopt-a-dog/Checkout.html"] {
+a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   border: 1px solid black;
-  padding: 6px;
+  padding: 15px;
   width: 550px;
   position: relative;
   bottom: 927px;
@@ -77,10 +77,11 @@ a[href="/adopt-a-dog/Checkout.html"] {
   color: white;
   padding-left: 35px;
   padding-right: 30px;
+  font-size: 1.2rem;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   color: #003568;
   position: relative;
   bottom: 625px;
@@ -105,7 +106,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 840px;
+  bottom: 869px;
   left: 460px;
 
 }
@@ -114,7 +115,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 1130px;
+  bottom: 1188px;
   left: 750px;
 }
 
@@ -122,7 +123,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 1420px;
+  bottom: 1508px;
   left: 1050px;
 }
 
@@ -130,7 +131,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 1400px;
+  bottom: 1450px;
   left: 170px;
 }
 
@@ -138,7 +139,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 1690px;
+  bottom: 1770px;
   left: 465px;
 }
 
@@ -146,7 +147,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 1980px;
+  bottom: 2088px;
   left: 765px;
 }
 
@@ -154,7 +155,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 2270px;
+  bottom: 2408px;
   left: 1060px;
 }
 
@@ -162,7 +163,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 2250px;
+  bottom: 2350px;
   left: 170px;
 }
 
@@ -170,7 +171,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 2554px;
+  bottom: 2684px;
   left: 460px;
 }
 
@@ -178,7 +179,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 2857px;
+  bottom: 3017px;
   left: 755px;
 }
 
@@ -186,7 +187,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   border: 2px solid black;
   width: 20%;
   position: relative;
-  bottom: 3160px;
+  bottom: 3350px;
   left: 1050px;
 }
 
@@ -197,15 +198,17 @@ a[href="/adopt-a-dog/Checkout.html"] {
   color: white;
   margin-left: 40px;
   margin-right: 40px;
+  padding: 15px;
+  font-size: 1.5rem;
 }
 
-.footerlogo img[src="/adopt-a-dog/images/adoptadog-logo.svg"] {
+.footerlogo img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"] {
   position: relative;
   top: 300px;
 }
 .seemoredogs {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.563rem; /* 25px */
   border: 2px solid black;
   color: navy;
   background-color: #E0E0E0;
@@ -235,53 +238,53 @@ footer {
   color: white;
 }
 
-img[src="/adopt-a-dog/images/murphy-card.jpg"] {
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/murphy-card.jpg"] {
+  width: 81%; /* width are 230px for these images */
 }
 
-img[src="/adopt-a-dog/images/poppy-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/poppy-card.jpg"]{
+  width: 81%;
 }
 
-img[src="/adopt-a-dog/images/jack-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/jack-card.jpg"]{
+  width: 81%;
 }
 
-img[src="/adopt-a-dog/images/duffy-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/duffy-card.jpg"]{
+  width: 81%;
 }
-img[src="/adopt-a-dog/images/lucas-card.jpg"]{
-  width: 230px;
-}
-
-img[src="/adopt-a-dog/images/jake-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/lucas-card.jpg"]{
+  width: 81%;
 }
 
-img[src="/adopt-a-dog/images/angus-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/jake-card.jpg"]{
+  width: 81%;
 }
 
-img[src="/adopt-a-dog/images/violet-card.jpg"]{
-  width: 230px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/angus-card.jpg"]{
+  width: 81%;  
 }
 
-img[src="/adopt-a-dog/images/piper-card.jpg"]{
-  width: 250px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/violet-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/piper-card.jpg"]{
+  width: 81%;
   height: 150px;
 }
 
-img[src="/adopt-a-dog/images/maximus-card.jpg"]{
-  width: 250px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/maximus-card.jpg"]{
+  width: 81%;
   height: 150px;
 }
 
-img[src="/adopt-a-dog/images/luna-card.jpg"]{
-  width: 250px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/luna-card.jpg"]{
+  width: 81%;
   height: 150px;
 }
 
-img[src="/adopt-a-dog/images/stella-card.jpg"]{
-  width: 250px;
+img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/stella-card.jpg"]{
+  width: 81%;
   height: 150px;
 }
