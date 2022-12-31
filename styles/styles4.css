@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 
-}
+}   
 
 header {
   /* border: 2px solid black; */
@@ -325,7 +325,7 @@ h4 {
   padding: 40px;
   font-size: 2.5rem;
 }
-  
+
 footer {
   background-color: #003568;
   margin-top: 65px;

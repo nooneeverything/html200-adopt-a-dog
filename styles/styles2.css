@@ -8,6 +8,7 @@ img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-ima
   width: 100%;
   height: 400px;
 }
+
 header {
   /* border: 2px solid black; */
   width: 100%;
@@ -262,7 +263,7 @@ img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/jake-card.jpg"]{
 }
 
 img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/angus-card.jpg"]{
-  width: 81%;  
+  width: 81%;
 }
 
 img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/violet-card.jpg"]{
