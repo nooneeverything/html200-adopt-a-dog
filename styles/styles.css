@@ -24,7 +24,7 @@ header {
   bottom: 688px;
   text-align: left;
   font-weight: bold;
-  font-size: 2rem; /* 25px */
+  font-size: 2rem; 
 }
 
 a:link {
@@ -49,7 +49,7 @@ a:link {
 }
 
 .intro-text p {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem; 
   padding: 5px;
 
 }
@@ -129,7 +129,7 @@ a:link {
 
 h3 {
   font-weight: bold;
-  font-size: 1.563rem; /* 25px */
+  font-size: 1.563rem; 
 }
 
 .adopt-button {
@@ -179,7 +179,7 @@ img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
-  width: 2.75%; /* 40px */
+  width: 2.75%; 
 
 
 }
@@ -246,7 +246,7 @@ footer {
 }
 
 img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/murphy-card.jpg"] {
-  width: 80%; /*230px */
+  width: 80%; 
 }
 
 img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/poppy-card.jpg"]{
