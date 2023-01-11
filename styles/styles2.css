@@ -14,7 +14,7 @@ header {
   margin: 10px;
 }
 
-.headnav { 
+.headnav {
   /* border: 2px solid black; */
   background-color: #E0E0E0;
   color: navy;
@@ -83,7 +83,7 @@ a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
 .title {
   font-size: 1.875rem; /* 30px */
   color: #003568;
-  position: relative;
+  position: relative;  
   bottom: 625px;
   left: 175px;
 
