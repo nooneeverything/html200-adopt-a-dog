@@ -6,7 +6,7 @@
 }
 .headerlogo {
   width: 100%;
-  height: 400px;  
+  height: 400px;
 }
 header {
   /* border: 2px solid black; */
@@ -24,7 +24,7 @@ header {
   bottom: 688px;
   text-align: left;
   font-weight: bold;
-  font-size: 2rem; 
+  font-size: 2rem; /* 25px */
 }
 
 a:link {
@@ -49,7 +49,7 @@ a:link {
 }
 
 .intro-text p {
-  font-size: 1.25rem; 
+  font-size: 1.25rem; /* 20px */
   padding: 5px;
 
 }
@@ -57,70 +57,77 @@ a:link {
   position: relative;
   bottom: 650px;
   height: 15px;
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17%;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
 
 }
 
 .dog-item1 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
-  left: 140px;
+  left: 140px; */
+  grid-row-start: 1;
+  grid-row-end: 4;
 
 
 }
 .dog-item2 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 325px;
-  left: 450px;
+  left: 450px; */
 
 }
 .dog-item3 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 650px;
-  left: 750px;
+  left: 750px; */
 }
 .dog-item4 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 978px;
-  left: 1070px;
+  left: 1070px; */
 
 }
 .dog-item5 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 900px;
-  left: 137px;
+  left: 137px; */
 
 }
 .dog-item6 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1225px;
-  left: 444px;
+  left: 444px; */
 
 }
 .dog-item7 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1550px;
-  left: 750px;
+  left: 750px; */
 
 }
 .dog-item8 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1875px;
-  left: 1060px;
+  left: 1060px; */
 
 }
 
@@ -129,7 +136,7 @@ a:link {
 
 h3 {
   font-weight: bold;
-  font-size: 1.563rem; 
+  font-size: 1.563rem; /* 25px */
 }
 
 .adopt-button {
@@ -179,7 +186,7 @@ img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
-  width: 2.75%; 
+  width: 2.75%; /* 40px */
 
 
 }
@@ -246,7 +253,7 @@ footer {
 }
 
 img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/murphy-card.jpg"] {
-  width: 80%; 
+  width: 80%; /*230px */
 }
 
 img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/poppy-card.jpg"]{
