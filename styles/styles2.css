@@ -8,14 +8,13 @@ img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-ima
   width: 100%;
   height: 400px;
 }
-
 header {
   /* border: 2px solid black; */
   width: 100%;
   margin: 10px;
 }
 
-.headnav {
+.headnav { 
   /* border: 2px solid black; */
   background-color: #E0E0E0;
   color: navy;
@@ -93,103 +92,110 @@ a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   /* border: 2px solid black;
   position: relative;
   bottom: 560px; */
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17%;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: 550px;
 }
 
 .dog-item1{
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   left: 170px;
-  bottom: 550px;
+  bottom: 550px; */
 }
 
 .dog-item2 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 869px;
-  left: 460px;
+  left: 460px; */
 
 }
 
 .dog-item3 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1188px;
-  left: 750px;
+  left: 750px; */
 }
 
 .dog-item4 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1508px;
-  left: 1050px;
+  left: 1050px; */
 }
 
 .dog-item5{
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1450px;
-  left: 170px;
+  left: 170px; */
 }
 
 .dog-item6 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 1770px;
-  left: 465px;
+  left: 465px; */
 }
 
 .dog-item7 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 2088px;
-  left: 765px;
+  left: 765px; */
 }
 
 .dog-item8 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 2408px;
-  left: 1060px;
+  left: 1060px; */
 }
 
 .dog-item9{
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 2350px;
-  left: 170px;
+  left: 170px; */
 }
 
 .dog-item10 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 2684px;
-  left: 460px;
+  left: 460px; */
 }
 
 .dog-item11 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 3017px;
-  left: 755px;
+  left: 755px; */
 }
 
 .dog-item12 {
   border: 2px solid black;
-  width: 20%;
+  /* width: 20%;
   position: relative;
   bottom: 3350px;
-  left: 1050px;
+  left: 1050px; */
 }
 
 .adopt-button {
@@ -204,8 +210,8 @@ a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
 }
 
 .footerlogo img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"] {
-  position: relative;
-  top: 300px;
+  /* position: relative;
+  top: 300px; */
 }
 .seemoredogs {
   font-weight: bold;
@@ -225,8 +231,8 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
-  position: relative;
-  bottom: 3050px;
+  /* position: relative;
+  bottom: 3050px; */
 }
 
 .foottext {
