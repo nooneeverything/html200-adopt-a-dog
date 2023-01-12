@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-img[src="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/header-image.jpg"]{
+img[src="/html200-adopt-a-dog/images/header-image.jpg"]{
   width: 100%;
   height: 400px;
 }
@@ -32,7 +32,7 @@ a:link {
 }
 
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"]{
+img[src="/html200-adopt-a-dog/images/adoptadog-logo.svg"]{
   position: relative;
   bottom: 525px;
   left: 79px;
@@ -48,7 +48,7 @@ h1 {
 
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
+img[src="/html200-adopt-a-dog/images/cart-icon.svg"] {
   position: relative;
   left: 1180px;
   bottom: 895px;
@@ -66,7 +66,7 @@ img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/cart-icon.svg"] {
   left: 1233px;
 }
 
-a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
+a[href="/html200-adopt-a-dog/Checkout.html"] {
   border: 1px solid black;
   padding: 15px;
   width: 550px;
@@ -209,7 +209,7 @@ a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   font-size: 1.5rem;
 }
 
-.footerlogo img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"] {
+.footerlogo img[src="/html200-adopt-a-dog/images/adoptadog-logo.svg"] {
   /* position: relative;
   top: 300px; */
 }
@@ -245,53 +245,53 @@ footer {
   color: white;
 }
 
-img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/murphy-card.jpg"] {
+img[src="/html200-adopt-a-dog/images/murphy-card.jpg"] {
   width: 81%; /* width are 230px for these images */
 }
 
-img[src="/Users/noahtesema/Desktop/html200-adopt-a-dog-master/images/poppy-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/poppy-card.jpg"]{
   width: 81%;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/jack-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/jack-card.jpg"]{
   width: 81%;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/duffy-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/duffy-card.jpg"]{
   width: 81%;
 }
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/lucas-card.jpg"]{
-  width: 81%;
-}
-
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/jake-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/lucas-card.jpg"]{
   width: 81%;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/angus-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/jake-card.jpg"]{
   width: 81%;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/violet-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/angus-card.jpg"]{
   width: 81%;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/piper-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/violet-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/html200-adopt-a-dog/images/piper-card.jpg"]{
   width: 81%;
   height: 150px;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/maximus-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/maximus-card.jpg"]{
   width: 81%;
   height: 150px;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/luna-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/luna-card.jpg"]{
   width: 81%;
   height: 150px;
 }
 
-img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/stella-card.jpg"]{
+img[src="/html200-adopt-a-dog/images/stella-card.jpg"]{
   width: 81%;
   height: 150px;
 }
