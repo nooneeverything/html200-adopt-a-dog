@@ -70,8 +70,7 @@ a:link {
   /* width: 20%;
   position: relative;
   left: 140px; */
-  grid-row-start: 1;
-  grid-row-end: 4;
+  
 
 
 }
