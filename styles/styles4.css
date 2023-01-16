@@ -157,10 +157,10 @@ label[for="pickup"] {
 
 }
 
-select[id="pickup"]{
+/* select[id="pickup"]{
   height: 50px;
   width: 130px;
-}
+} */
 
 .dogs {
 
