@@ -253,7 +253,7 @@ h2 {
 
 .no {
 
-  width: 100px;
+  width: 50%;
   position: relative;
   left: 130px;
   bottom: 66px;
@@ -261,7 +261,7 @@ h2 {
 
 .yes {
 
-  width: 100px;
+  width: 50%;
 
 }
 
