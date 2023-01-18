@@ -1,146 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta name="viewport" content="width=500, initial-scale=1">
   <title> Adopt a Dog </title>
-   <!-- <style>
-    body {
-      background-color: black;
-    }
-  </style> -->
+  <link rel="stylesheet" href="/html200-adopt-a-dog/styles/styles.css">
+
 </head>
 <body>
   <header>
 
     <figure>
-      <img src="/html200-adopt-a-dog/images/header-image.jpg" alt="background image of a dog">
+      <img class="headerlogo" src="/html200-adopt-a-dog/images/header-image.jpg" alt="background image of a dog">
     </figure>
     <figure>
       <img src="/html200-adopt-a-dog/images/adoptadog-logo.svg" alt="company logo of dog" width="500" height="500">
     </figure>
-    <h1> Seattles premier dog adoption agency </h1>
+    <h1><i> Seattles premier dog adoption agency</i> </h1>
     <figure>
       <img src="/html200-adopt-a-dog/images/cart-icon.svg" alt="logo of shopping cart" width="100" height="100">
     </figure>
-    <p><b> $123.45 </b></p>
-    <a href="/html200/html200-adopt-a-dog/Checkout.html" target="_blank"> Checkout </a>
+    <p class="price"><b> $123.45 </b></p>
+    <a href="/html200-adopt-a-dog/checkout.html" target="_blank"> Checkout </a>
 
     <nav>
-      <a href="/html200/html200-adopt-a-dog/index.html">Home</a>
-      <a href="/html200/html200-adopt-a-dog/Dogs.html">Dogs</a>
-      <a href="/html200/html200-adopt-a-dog/Blog.html">Blog</a>
+      <div class="headnav">
+      <a href="/html200-adopt-a-dog/index.html">Home &nbsp; &nbsp; / &nbsp; </a>
+      <a href="/html200-adopt-a-dog/dogs.html">Dogs &nbsp; &nbsp; / &nbsp;</a>
+      <a href="/html200-adopt-a-dog/blog.html">Blog &nbsp; &nbsp;/ &nbsp;</a>
+      </div>
     </nav>
 
   </header>
 
   <main>
-    <figure>
-      <img src="/html200-adopt-a-dog/images/home-intro.jpg" alt="image of adopt-a-dog logo">
-    </figure>
-    <h2> Adopt a Dog </h2>
-    <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus porttitor tortor, in ultricies orci imperdiet eu. Aenean tortor risus, blandit non consequat eu, sodales vel enim. Ut nec ex mattis purus interdum consectetur et sed leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed imperdiet sapien ut eros volutpat, in congue elit ultricies. Proin sed est eget ligula congue condimentum. Vestibulum velit urna, congue et enim vel, hendrerit rutrum urna. Donec libero lacus, pretium id auctor non, condimentum sit amet magna. Vivamus vitae sapien ac odio ultricies pulvinar. Phasellus in felis vel risus lobortis mollis. Aenean porttitor placerat metus, vitae malesuada leo ultricies a. Sed pharetra rutrum urna. </p>
+    <div class="intro">
+      <div class="intropic">
+        <figure>
+          <img src="/html200-adopt-a-dog/images/home-intro.jpg" alt="image of adopt-a-dog logo">
+        </figure>
+      </div>
+      <div class="intro-text">
+
+          <h2> Adopt a Dog </h2>
+        <br>
+        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus porttitor tortor,<br>
+in ultricies orci imperdiet eu. Aenean tortor risus, blandit non consequat eu, sodales vel<br>
+enim. Ut nec ex mattis purus interdum consectetur et sed leo. Vestibulum ante ipsum primis<br>
+in faucibus orci luctus et ultrices posuere cubilia curae; Sed imperdiet sapien ut eros<br>
+volutpatin congue elit ultricies. Proin sed est eget ligula congue condimentum. Vestibulum<br>
+velit urna, congue et enim vel, hendrerit rutrum urna. Donec libero lacus, pretium id auctor<br>
+non, condimentum sit amet magna. Vivamus vitae sapien ac odio ultricies pulvinar. Phasellus<br>
+in felis vel risus lobortis mollis. Aenean porttitor placerat metus, vitae malesuada leo<br>
+ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae malesuada leo </p>
+      </div>
+    </div>
+
+    <div class="dogs">
 
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/murphy-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Murphy</h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
+        <div class="dog-item1">
+          <figure>
+            <img onclick="info('Murphy', 'Pitbull', '$123.45')" src="/html200-adopt-a-dog/images/murphy-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Murphy</h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/poppy-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Poppy </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/jack-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Jack </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/duffy-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Duffy </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
+        <div class="dog-item2">
+          <figure>
+            <img onclick="info('Poppy', 'Shih Tzu', '$123.45')" src="/html200-adopt-a-dog/images/poppy-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Poppy </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/lucas-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Lucas </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/jake-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Jake </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/angus-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Angus </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
+        <div class="dog-item3">
+          <figure>
+            <img onclick="info('Jack', 'Beagle', '$123.45')" src="/html200-adopt-a-dog/images/jack-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Jack </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
 
-    <article>
-      <figure>
-        <img src="/html200-adopt-a-dog/images/violet-card.jpg" alt="image of a dog">
-      </figure>
-      <h3> Violet </h3>
-      <p><b>Cost to Adopt: </b>$123.45 </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-      <h2 class="adopt-button"> Adopt </h2>
-    </article>
 
-    <p> See More Dogs </p>
+
+        <div class="dog-item4">
+          <figure>
+            <img onclick="info('Duffy', 'Pitbull', '$123.45')" src="/html200-adopt-a-dog/images/duffy-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Duffy </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
+
+
+
+        <div class="dog-item5">
+          <figure>
+            <img onclick="info('Lucas', 'Borador', '$123.45')" src="/html200-adopt-a-dog/images/lucas-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Lucas </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
+
+
+
+        <div class="dog-item6">
+          <figure>
+            <img onclick="info('Jake', 'Labrador Retriever', '$123.45')" src="/html200-adopt-a-dog/images/jake-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Jake </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
+
+
+
+        <div class="dog-item7">
+          <figure>
+            <img onclick="info('Angus', 'Boxer', '$123.45')" src="/html200-adopt-a-dog/images/angus-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Angus </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          </div>
+
+
+
+        <div class="dog-item8">
+          <figure>
+            <img onclick="info('Violet', 'Beagadorr', '$123.45')" src="/html200-adopt-a-dog/images/violet-card.jpg" alt="image of a dog">
+          </figure>
+          <h3> Violet </h3>
+          <p><b>Cost to Adopt: </b>$123.45 </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
+          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+        </div>
+
+
+    </div>
+
+    <div class="seemoredogs">
+    <a href=".seemoredogs"> See More Dogs </a>
+    </div>
 
 
   </main>
 
   <footer>
-    <figure>
-      <img src="/html200-adopt-a-dog/images/adoptadog-logo.svg" alt="company logo of dog" width="500" height="500">
-    </figure>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non sollicitudin tortor. Nullam arcu metus, accumsan. </p>
-    <nav>
-      <a href="/html200-adopt-a-dog/index.html">Home</a>
-      <a href="/html200-adopt-a-dog/Dogs.html">Dogs</a>
-      <a href="/Contact.html">Contact</a>
-    </nav>
-    <p> 2018 Adoptadog, LLC | Seattle, WA </p>
+      <div class='footimg'>
+        <figure>
+          <img class="footerlogo" src="/html200-adopt-a-dog/images/adoptadog-logo-footer.svg" alt="company logo of dog" width="400" height="400">
+        </figure>
+      </div>
+      <br>
+      <div class="foottext">
+        <p> Aborpos nisto inci tet aut que volupti beruptiberro to ex </p>
+        <br>
+        <p> esseque invenienihil imaximu scideru ptistiusam consequunt </p>
+        <br>
+
+        <nav>
+          <a href="/html200-adopt-a-dog/index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;/ &nbsp;&nbsp;</a>
+          <a href="/html200-adopt-a-dog/dogs.html">&nbsp;&nbsp;Dogs &nbsp;&nbsp;/ &nbsp;&nbsp;</a>
+          <a href="/Contact.html">&nbsp;&nbsp;Contact;&nbsp;&nbsp;/</a>
+        </nav>
+        <br>
+        <p> 2018 Adoptadog, LLC &nbsp; | &nbsp; Seattle, WA </p>
+      </div>
   </footer>
 
-
+  <script src="./dogjavascript.js"></script>
 </body>
 </html>
