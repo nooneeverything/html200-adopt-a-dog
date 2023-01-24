@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.headerlogo {
+  width: 100%;
+  height: 400px;
+}
+header {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 10px;
+}
+
+.headnav {
+  /* border: 2px solid black; */
+  background-color: #E0E0E0;
+  color: navy;
+  padding: 40px;
+  padding-left: 173px;
+  position: relative;
+  bottom: 688px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem; /* 25px */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-left: 173px;
+  position: relative;
+  bottom: 675px;
+}
+
+img[src="/html200-adopt-a-dog/images/home-intro.jpg"] {
+  width: 55%;
+  height: 400px;
+}
+
+.intro-text {
+  margin-top: 50px;
+}
+
+.intro-text p {
+  font-size: 1.25rem; /* 20px */
+  padding: 5px;
+
+
+}
+
+.intro-text h2 {
+  font-size: 2.5rem;
+  color: #000080;
+
+
+}
+ .dogs {
+  position: relative;
+  bottom: 650px;
+  height: 15px;
+  display: grid;
+  grid-template-columns: 19% 19% 19%;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: left;
+  align-items: stretch;
+  margin-left: 175px;
+
+
+
+}
+
+.dog-item1 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  left: 140px; */
+
+
+
+}
+.dog-item2 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 325px;
+  left: 450px; */
+
+}
+.dog-item3 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 650px;
+  left: 750px; */
+}
+.dog-item4 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 978px;
+  left: 1070px; */
+
+}
+.dog-item5 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 900px;
+  left: 137px; */
+
+}
+.dog-item6 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1225px;
+  left: 444px; */
+
+}
+.dog-item7 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1550px;
+  left: 750px; */
+
+}
+.dog-item8 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1875px;
+  left: 1060px; */
+
+}
+
+
+
+
+h3 {
+  font-weight: bold;
+  font-size: 1.563rem; /* 25px */
+}
+
+.adopt-button {
+  border: 2px solid black;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+/* a.visited {
+  text-decoration: none;
+}
+
+a.hover {
+  text-decoration: none;
+}
+
+a.active {
+  text-decoration: none;
+} */
+
+img[src="/html200-adopt-a-dog/images/header-image.jpg"]{
+  width: 100%;
+  height: 400px;
+}
+
+img[src="/html200-adopt-a-dog/images/adoptadog-logo.svg"]{
+  position: relative;
+  bottom: 525px;
+  left: 79px;
+  width: 26%;
+}
+
+h1 {
+  color: green;
+  position: relative;
+  bottom: 725px;
+  left: 79px;
+  width: 35%; /* 500px */
+}
+
+img[src="/html200-adopt-a-dog/images/cart-icon.svg"] {
+  position: relative;
+  left: 1180px;
+  bottom: 895px;
+  width: 2.75%; /* 40px */
+
+
+}
+
+.price {
+  border: 1px solid black;
+  width: 2.75%; /* 60px */
+  color: white;
+  position: relative;
+  bottom: 947px;
+  left: 1233px;
+}
+
+a[href="/html200-adopt-a-dog/Checkout.html"] {
+  border: 1px solid black;
+  padding: 15px;
+  width: 550px;
+  position: relative;
+  bottom: 927px;
+  left: 1165px;
+  background-color: green;
+  color: white;
+  padding-left: 35px;
+  padding-right: 30px;
+  font-size: 1.2rem;
+}
+
+aside {
+  width: 30%;
+  flex-direction: column;
+  float: right;
+  position: relative;
+  bottom: 1550px;
+}
+
+.aside-container {
+  position: relative;
+  left: 65px;
+}
+
+.aside-container h2 {
+  font-size: 2rem;
+  color: #000080;
+}
+
+.aside-container h3 {
+  font-size: 1.5rem;
+  color: #000080;
+}
+
+
+
+.section1 {
+  margin-bottom: 50px;
+}
+
+.section2 {
+  margin-bottom: 50px;
+}
+
+.section3 {
+  margin-bottom: 50px;
+}
+
+.section1text {
+  width: 65%;
+  margin-top: 15px;
+
+}
+
+.section2text {
+  margin-top: 15px;
+}
+
+.sec2paragraph {
+    width: 65%;
+    margin-top: 15px;
+}
+
+.sec3paragraph {
+    width: 65%;
+}
+
+img[src="/html200-adopt-a-dog/images/blog-1.jpg"] {
+  width: 65%;
+}
+
+img[src="/html200-adopt-a-dog/images/blog-2.jpg"] {
+  width: 55%;
+}
+
+img[src="/html200-adopt-a-dog/images/blog-3.jpg"] {
+  width: 55%;
+}
+
+.footerlogo img[src="/html200-adopt-a-dog/images/adoptadog-logo-footer.svg"] {
+  position: relative;
+  top: 300px;
+}
+.seemoredogs {
+  font-weight: bold;
+  border: 2px solid black;
+  color: navy;
+  background-color: #E0E0E0;
+  padding: 40px;
+  text-align: center;
+  margin-left: 550px;
+  margin-right: 550px;
+  position: relative;
+  top: 160px;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #003568;
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  top: 200px;
+}
+
+.foottext {
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+  padding: 15px;
+}
+.foottext a {
+  color: white;
+}
+
+.footerlogo {
+  width: 30%;
+  position: relative;
+  left: 200px;
+}
+
+img[src="/html200-adopt-a-dog/images/murphy-card.jpg"] {
+  width: 80%; /*230px */
+}
+
+img[src="/html200-adopt-a-dog/images/poppy-card.jpg"]{
+  width: 80%;
+}
+
+img[src="/html200-adopt-a-dog/images/jack-card.jpg"]{
+  width: 80%;
+}
+
+img[src="/html200-adopt-a-dog/images/duffy-card.jpg"]{
+  width: 80%;
+}
+img[src="/html200-adopt-a-dog/images/lucas-card.jpg"]{
+  width: 80%;
+}
+
+img[src="/html200-adopt-a-dog/images/jake-card.jpg"]{
+  width: 80%;
+}
+
+img[src="/html200-adopt-a-dog/images/angus-card.jpg"]{
+  width: 80%;
+}
+
+img[src="/html200-adopt-a-dog/images/violet-card.jpg"]{
+  width: 80%;
+}
+
+@media screen and (max-width: 768px){
+  .dogs {
+    position: relative;
+    left: -85px;
+    bottom: 650px;
+    height: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+
+  }
+
+  aside {
+    position: relative;
+    top: 270px;
+    width: 60%;
+    right: 100px;
+  }
+
+ footer {
+    position: relative;
+    top: 1850px;
+  }
+
+  .seemoredogs {
+    position: relative;
+    top: 1800px;
+    right: 275px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1226px){
+  .intro-text {
+    width: 70%;
+  }
+
+  .seemoredogs {
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .dogs {
+    position: relative;
+    left: -165px;
+    bottom: 650px;
+    height: 15px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    width: 95%;
+
+
+  }
+
+  footer {
+    position: relative;
+    top: 2600px;
+
+
+  }
+
+  .foottext {
+    position: relative;
+    right: 500px;
+
+  }
+
+
+  .seemoredogs {
+    position: relative;
+    top: 2000px;
+    left: -470px;
+    width: 70%;
+
+  }
+
+  aside {
+    display: none;
+  }
+}
