@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/header-image.jpg"]{
+  width: 100%;
+  height: 400px;
+}
+header {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 10px;
+}
+
+.headnav {
+  /* border: 2px solid black; */
+  background-color: #E0E0E0;
+  color: navy;
+  padding: 40px;
+  padding-left: 173px;
+  position: relative;
+  bottom: 688px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem; /* 25px */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/adoptadog-logo.svg"]{
+  position: relative;
+  bottom: 525px;
+  left: 79px;
+  width: 26%;
+}
+
+h1 {
+  color: green;
+  position: relative;
+  bottom: 725px;
+  left: 79px;
+  width: 35%; /* 500px */
+
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/cart-icon.svg"] {
+  position: relative;
+  left: 1180px;
+  bottom: 895px;
+  width: 2.75%; /* 40px */
+
+
+}
+
+.price {
+  border: 1px solid black;
+  width: 2.75%; /* 60px */
+  color: white;
+  position: relative;
+  bottom: 947px;
+  left: 1233px;
+}
+
+a[href="/Users/noahtesema/Desktop/Lesson 6 Assignment /Checkout.html"] {
+  border: 1px solid black;
+  padding: 15px;
+  width: 550px;
+  position: relative;
+  bottom: 927px;
+  left: 1165px;
+  background-color: green;
+  color: white;
+  padding-left: 35px;
+  padding-right: 30px;
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 1.875rem; /* 30px */
+  color: #003568;
+  position: relative;
+  bottom: 625px;
+  left: 175px;
+
+}
+.dogs {
+  /* border: 2px solid black;
+  position: relative;
+  bottom: 560px; */
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17%;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: 550px;
+}
+
+.dog-item1{
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  left: 170px;
+  bottom: 550px; */
+}
+
+.dog-item2 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 869px;
+  left: 460px; */
+
+}
+
+.dog-item3 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1188px;
+  left: 750px; */
+}
+
+.dog-item4 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1508px;
+  left: 1050px; */
+}
+
+.dog-item5{
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1450px;
+  left: 170px; */
+}
+
+.dog-item6 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 1770px;
+  left: 465px; */
+}
+
+.dog-item7 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 2088px;
+  left: 765px; */
+}
+
+.dog-item8 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 2408px;
+  left: 1060px; */
+}
+
+.dog-item9{
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 2350px;
+  left: 170px; */
+}
+
+.dog-item10 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 2684px;
+  left: 460px; */
+}
+
+.dog-item11 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 3017px;
+  left: 755px; */
+}
+
+.dog-item12 {
+  border: 2px solid black;
+  /* width: 20%;
+  position: relative;
+  bottom: 3350px;
+  left: 1050px; */
+}
+
+.adopt-button {
+  border: 2px solid black;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.footerlogo img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/adoptadog-logo.svg"] {
+  /* position: relative;
+  top: 300px; */
+}
+.seemoredogs {
+  font-weight: bold;
+  font-size: 1.563rem; /* 25px */
+  border: 2px solid black;
+  color: navy;
+  background-color: #E0E0E0;
+  padding: 25px;
+  text-align: center;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+footer {
+  background-color: #003568;
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  /* position: relative;
+  bottom: 3050px; */
+}
+
+.foottext {
+  color: white;
+  position: relative;
+  bottom: 150px;
+  padding: 15px;
+}
+.foottext a {
+  color: white;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/murphy-card.jpg"] {
+  width: 81%; /* width are 230px for these images */
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/poppy-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/jack-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/duffy-card.jpg"]{
+  width: 81%;
+}
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/lucas-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/jake-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/angus-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/violet-card.jpg"]{
+  width: 81%;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/piper-card.jpg"]{
+  width: 81%;
+  height: 150px;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/maximus-card.jpg"]{
+  width: 81%;
+  height: 150px;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/luna-card.jpg"]{
+  width: 81%;
+  height: 150px;
+}
+
+img[src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/stella-card.jpg"]{
+  width: 81%;
+  height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .dogs {
+    position: relative;
+    bottom: 650px;
+    height: 15px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    width:
+  }
+
+  footer {
+    position: relative;
+    top: 1900px;
+  }
+
+  .dogs {
+    position: relative;
+    bottom: 500px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .dogs {
+    position: relative;
+    bottom: 450px;
+    height: 15px;
+    display: grid;
+    grid-template-columns: 90%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+
+  }
+
+  footer {
+    position: relative;
+    top: 3800px;
+  }
+
+  .title {
+
+    position: relative;
+    left: 20px;
+    font-size: 1.5rem;
+  }
+
+
+}
