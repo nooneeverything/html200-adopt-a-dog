@@ -324,7 +324,7 @@ img[src="/html200-adopt-a-dog/images/stella-card.jpg"]{
 @media screen and (max-width: 480px) {
   .dogs {
     position: relative;
-    bottom: 450px;
+    bottom: 550px;
     height: 15px;
     display: grid;
     grid-template-columns: 90%;
