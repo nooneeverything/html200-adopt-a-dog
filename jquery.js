@@ -13,4 +13,4 @@ $(document).ready(function(){
     alert('The total is '+total);
   });
 })
-as
+
