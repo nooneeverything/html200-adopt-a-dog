@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=500, initial-scale=1">
   <title> Adopt a Dog </title>
   <link rel="stylesheet" href="/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/styles/styles.css">
-
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+  <script src="./jquery.js"></script>
 </head>
-<body>
+<body>  
   <header>
-    <div class="main-header"> </div>  
+    <div class="main-header"> </div>
 
     <!-- <figure>
       <img class="headerlogo" src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/header-image.jpg" alt="background image of a dog">
@@ -67,12 +71,12 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
 
         <div class="dog-item1">
           <figure>
-            <img onclick="info('Murphy', 'Pitbull', '$123.45')" src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/murphy-card.jpg" alt="image of a dog">
+            <img id="pic1" onclick="info('Murphy', 'Pitbull', '$123.45')" src="/Users/noahtesema/Desktop/Lesson 6 Assignment /images/murphy-card.jpg" alt="image of a dog">
           </figure>
           <h3> Murphy</h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -84,7 +88,7 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
           <h3> Poppy </h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -96,7 +100,7 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
           <h3> Jack </h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -108,7 +112,7 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
           <h3> Duffy </h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -120,7 +124,7 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
           <h3> Lucas </h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -132,7 +136,7 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
           <h3> Jake </h3>
           <p><b>Cost to Adopt: </b>$123.45 </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate, est at sollicitudin dapibus, sapien justo pretium ex, eu venenatis nunc. </p>
-          <h2 onclick="total(123.45)" class="adopt-button"> Adopt </h2>
+          <h2 class="adopt-button"> Adopt </h2>
         </div>
 
 
@@ -240,5 +244,6 @@ ultricies a. Sed pharetra rutrum urna. Aenean porttitor placerat metus, vitae ma
   </footer>
 
   <script src="./dogjavascript.js"></script>
+
 </body>
 </html>
