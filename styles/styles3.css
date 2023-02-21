@@ -10,6 +10,16 @@ header {
   margin: 10px;
 }
 
+.main-header {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to left, purple, white);
+  background-size: cover;
+  background-image: url('/html200-adopt-a-dog/images/header-image.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 .headnav {
   /* border: 2px solid black; */
   background-color: #E0E0E0;
