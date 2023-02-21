@@ -54,7 +54,7 @@ const title1 = document.createElement('h3');
 title1.textContent = posts.title;
 
 const text1 = document.createElement('p');
-text1.textContent = posts.text;
+text1.textContent = posts.text; 
 
 
 document.body.insertBefore(blogcontainer, first);
