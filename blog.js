@@ -15,17 +15,17 @@ const blogposts = [
   {
     title: "Teach Your Dog To Fetch!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et mauris enim. Ut vitae lacus eu ante consequat porta ac ac augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla nec est enim. Cras dapibus condimentum metus quis volutpat. Nulla malesuada nunc ex, vitae tempus purus feugiat quis. Morbi aliquam est nec dui egestas aliquam. Vestibulum sit amet magna vitae erat malesuada malesuada et non dolor. Donec vel magna vitae ipsum consectetur vehicula ut eu elit. Maecenas quis turpis ac leo dapibus convallis. Sed sodales congue ex a imperdiet. Phasellus sit amet velit dolor. Sed eu dapibus neque. Proin in blandit purus. Proin dapibus elit a gravida faucibus. Etiam euismod dapibus turpis, nec suscipit enim sodales at. Cras commodo tincidunt semper. Fusce non euismod ex. Morbi vulputate metus at porttitor viverra. Donec vehicula finibus urna. Nullam interdum orci nec consequat cursus. Nullam vel ullamcorper est. Suspendisse et augue ac diam aliquet lobortis. Sed dictum dignissim tellus ac sagittis",
-    picture: "/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/blog-1.jpg",
+    picture: "/html200-adopt-a-dog/images/blog-1.jpg",
   },
   {
     title: "How To Walk Multiple Dogs",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et mauris enim. Ut vitae lacus eu ante consequat porta ac ac augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla nec est enim. Cras dapibus condimentum metus quis volutpat. Nulla malesuada nunc ex, vitae tempus purus feugiat quis. Morbi aliquam est nec dui egestas aliquam. Vestibulum sit amet magna vitae erat malesuada malesuada et non dolor. Donec vel magna vitae ipsum consectetur vehicula ut eu elit. Maecenas quis turpis ac leo dapibus convallis. Sed sodales congue ex a imperdiet. Phasellus sit amet velit dolor. Sed eu dapibus neque. Proin in blandit purus. Proin dapibus elit a gravida faucibus. Etiam euismod dapibus turpis, nec suscipit enim sodales at. Cras commodo tincidunt semper. Fusce non euismod ex. Morbi vulputate metus at porttitor viverra. Donec vehicula finibus urna. Nullam interdum orci nec consequat cursus. Nullam vel ullamcorper est. Suspendisse et augue ac diam aliquet lobortis. Sed dictum dignissim tellus ac sagittis",
-    picture: "/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/blog-2.jpg",
+    picture: "/html200-adopt-a-dog/images/blog-2.jpg",
   },
   {
     title: "Traveling With Your Dog",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et mauris enim. Ut vitae lacus eu ante consequat porta ac ac augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla nec est enim. Cras dapibus condimentum metus quis volutpat. Nulla malesuada nunc ex, vitae tempus purus feugiat quis. Morbi aliquam est nec dui egestas aliquam. Vestibulum sit amet magna vitae erat malesuada malesuada et non dolor. Donec vel magna vitae ipsum consectetur vehicula ut eu elit. Maecenas quis turpis ac leo dapibus convallis. Sed sodales congue ex a imperdiet. Phasellus sit amet velit dolor. Sed eu dapibus neque. Proin in blandit purus. Proin dapibus elit a gravida faucibus. Etiam euismod dapibus turpis, nec suscipit enim sodales at. Cras commodo tincidunt semper. Fusce non euismod ex. Morbi vulputate metus at porttitor viverra. Donec vehicula finibus urna. Nullam interdum orci nec consequat cursus. Nullam vel ullamcorper est. Suspendisse et augue ac diam aliquet lobortis. Sed dictum dignissim tellus ac sagittis",
-    picture: "/Users/noahtesema/Desktop/html200/html200-adopt-a-dog/images/blog-3.jpg",
+    picture: "/html200-adopt-a-dog/images/blog-3.jpg",
   },
 ];
 
@@ -54,7 +54,7 @@ const title1 = document.createElement('h3');
 title1.textContent = posts.title;
 
 const text1 = document.createElement('p');
-text1.textContent = posts.text;
+text1.textContent = posts.text; 
 
 
 document.body.insertBefore(blogcontainer, first);
