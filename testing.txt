@@ -62,7 +62,7 @@ This type of person is a young professional living in a big city who is seeking 
 Type of User: Elderly Person
 Age: 73
 Name: Bob Gamble
-Occupation: Retired, Formerly an Electrician 
+Occupation: Retired, Formerly an Electrician   
 Education: Trade School
 Activities: Loves to swim, garden and spend time with his grandkids
 Other details:   

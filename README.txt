@@ -10,8 +10,8 @@ GitHub Repository Clone nooneeverything/html200-adopt-a-dog
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
+to discuss what you would like to change.  
+  
 
 GitHub Pages: https://nooneeverything.github.io/html200-adopt-a-dog/index.html
 
