@@ -1,0 +1,78 @@
+Desktop: 
+
+macOs monterey on MacBook
+- Chrome
+- Safari
+- Firefox
+- Edge
+
+Windows 10 Home
+- Chrome
+- Edge
+- Firefox
+
+Mobile: Iphone 14 Pro
+
+-Safari   
+-Chrome
+-Firefox
+
+Devices
+-MacBook Pro
+-iPhone 14 Pro 
+-HP Pavilion x360 Convertible
+
+
+
+TESTING: 
+
+	Tested Responsivity in all  Desktop Browsers (Chrome, Safari, Firefox, and Edge) by closing windows of each browser while using the specific DevTools of that browser. All browsers rendered the website the same as the browser the site was originally created in (Chrome). The media queries used to collapse the dog items work on each browser and both Desktop and Mobile browsers. No issues here. The navigation bar on the top of the pages maintains a good size and amount of padding and margin making it a great clickable size on all Desktop and Mobile browsers. 
+	Responsive design testing done on mobile browsers (Safari, Chrome, Firefox) proved that the responsive design techniques implemented by the graceful degradation method on the site was very effective. The content defined "important" specifically the dog items on the homepage and the "Blog" page were visable. Small stylistic errors relating more to CSS were found but not an issue.Color, shading and gradient are consistent on both Mobile and Desktop Browsers.I also used HTML and CSS Validators to make sure there were not syntax errors in the code.
+	Surprisingly the Windows 10 browsers, Chrome, Firefox, and Safari rendered the website exactly the same as all of the browsers on the MacBook. I tested responsivity  using the same technique as the MacBook browsers, by resizing the windows while using the browsers specific developer tools. All media queries were effective and the important content was viewable. 
+
+
+
+User Personas for Adopt-a-Dog
+
+Type of User: The Family Man
+Age: 48 
+Name: John Kelly 
+Occupation: Front-End Developer
+Education: Bachelors in Computer Science
+Activities: Spending time with family, running and enjoying nature
+Other details: 
+Works in tech from home so has several brand new desktop computers. Because of his occupation it is safe to assume he uses the latest browsers and the latest devices.
+Has two kids so there is also an ipad in the home
+He also has a new smartphone no less than 3 years old
+
+This is the type of person who is seeking to adopt a dog for his family. He is looking for a smaller dog and a dog that is considered more friendly and a less aggressive breed. He is looking for a dog that is already trained. His main concern is a dog that is going to be easy to take care of and one that his kids will love to play with. 
+
+Type of User: Young Single Professional
+Age: 25
+Name: Sarah Smith
+Occupation: Publishing Agent
+Education: Masters in English Literature
+Activities: Enjoys reading, going to coffee shops with friends, and taking long walks around the city.
+Other details: 
+Is a young professional who spends a lot of time reading drafts of books for work so she mostly uses a MacBook Pro and an Ipad. 
+Being an active young person in a bustling city she has a smart phone no less than three years old
+
+This type of person is a young professional living in a big city who is seeking to adopt a dog to help with their social isolation and to live a more active lifestyle. The type of dog doesn't matter more than the personality, she is looking for a more calm dog.  Another reason why she wants a dog is to join a community of dog owners since a lot of her other friends own them. She is looking for a younger dog that will coexist well in her small house and since she works hybrid remote she would love to have a dog in the house on her days away from the office. 
+
+Type of User: Elderly Person
+Age: 73
+Name: Bob Gamble
+Occupation: Retired, Formerly an Electrician 
+Education: Trade School
+Activities: Loves to swim, garden and spend time with his grandkids
+Other details:   
+Is not tech savvy, owns an 2010 Dell Desktop and uses  Firefox as a browser
+His grandkids are helping him in his search for a dog using an Chromebook
+
+Bob is a retired electrician looking for a dog to help him live a more active lifestyle. As someone who enjoys nature and has plenty of time on his hands Bob is looking for a young dog with a calm manageable personality that will be easy to take care of. Bob also spends a lot of time with his grandkids so it's important to him that his dog will get along with them and their golden retriever. Bob lives alone in a cabin in the woods so he has plenty of space for the dog to roam around. If he feels satisfied with his dog he is thinking about adopting another. 
+ 
+
+
+
+
+
