@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- 
+
 }
 
 header {
@@ -326,15 +326,7 @@ h4 {
   font-weight: bold;
 }
 
-.submit-button {
-  border: 2px solid black;
-  background-color: green;
-  color: white;
-  width: 30%; /* 255px */
-  text-align: center;
-  padding: 40px;
-  font-size: 2.5rem;
-}
+
 
 footer {
   background-color: #003568;
