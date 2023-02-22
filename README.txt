@@ -1,7 +1,7 @@
 # Adopt-a-Dog
 
 Adopt-a-Dog is a website of a company based in Seattle Washington that allows users to adopt dogs.
-Users are able to view the dogs available and adopt them on the site. They can specifically see a picture of the dog, its breed, and how much it costs to adopt. The site was developed using HTML, CSS, Javascript, and JQuery. The site was created using the graceful degradation method. The site was tested thoroughly on all major desktop and mobile browsers. It is responsive to various screen sizes and numerous mobile devices. 
+Users are able to view the dogs available and adopt them on the site. They can see a picture of the dog, its breed, and how much it costs to adopt. The site was developed using HTML, CSS, Javascript, and JQuery. The site was created using the graceful degradation method. The site was tested thoroughly on all major desktop and mobile browsers. It is responsive to various screen sizes and numerous mobile devices. 
 
 ## Installation
 
